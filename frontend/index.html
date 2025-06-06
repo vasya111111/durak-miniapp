@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дурак в Telegram</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Мини-апп «Дурак»</h2>
+  <div id="lobby">
+    <button id="btnCreate">Создать игру</button>
+    <button id="btnJoin">Присоединиться</button>
+  </div>
+  <div id="game" class="hidden">
+    <div id="table"></div>
+    <div id="hand"></div>
+    <div id="controls">
+      <button id="btnTake">Взять стол</button>
+    </div>
+  </div>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
